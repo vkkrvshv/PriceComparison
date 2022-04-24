@@ -1,0 +1,72 @@
+1650672510527	geckodriver	INFO	Listening on 127.0.0.1:57844
+1650672513711	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57845" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\asta1\\AppData\\Local\\Temp\\rust_mozprofileorpdJv"
+1650672518785	Marionette	INFO	Marionette enabled
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1650672537898	geckodriver	INFO	Listening on 127.0.0.1:57867
+1650672540919	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57868" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\asta1\\AppData\\Local\\Temp\\rust_mozprofileHMNCxm"
+1650672541826	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\asta1\\AppData\\Local\\Temp\\rust_mozprofileHMNCxm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57868/devtools/browser/4a170b6d-8831-41a7-b328-da9f6bca2878
+1650672560516	Marionette	INFO	Listening on port 57902
+Read port: 
+1650672560564	geckodriver::browser	WARN	Failed fo convert  to u16
+Read port: 57902
+1650672566653	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650672566692	Marionette	INFO	Stopped listening on port 57902
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/driver.js, line 2125: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1650672712632	geckodriver	INFO	Listening on 127.0.0.1:57948
+1650672715677	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57949" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\asta1\\AppData\\Local\\Temp\\rust_mozprofileROq4ep"
+1650672716685	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\asta1\\AppData\\Local\\Temp\\rust_mozprofileROq4ep\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57949/devtools/browser/d2129720-a98c-46b8-9fdc-b39d89d23ba5
+1650672725280	Marionette	INFO	Listening on port 57969
+Read port: 57969
+1650672725488	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: WebGL context was lost.
+JavaScript error: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: TypeError: 'get ready' called on an object that does not implement interface ServiceWorkerContainer.
+JavaScript error: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: TypeError: 'get ready' called on an object that does not implement interface ServiceWorkerContainer.
+JavaScript error: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: TypeError: 'get ready' called on an object that does not implement interface ServiceWorkerContainer.
+JavaScript error: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript warning: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: WebGL context was lost.
+JavaScript error: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: TypeError: 'get ready' called on an object that does not implement interface ServiceWorkerContainer.
+JavaScript error: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: TypeError: 'get ready' called on an object that does not implement interface ServiceWorkerContainer.
+JavaScript error: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: TypeError: 'get ready' called on an object that does not implement interface ServiceWorkerContainer.
+JavaScript error: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript warning: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: WebGL context was lost.
+JavaScript error: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: TypeError: 'get ready' called on an object that does not implement interface ServiceWorkerContainer.
+JavaScript error: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: TypeError: 'get ready' called on an object that does not implement interface ServiceWorkerContainer.
+JavaScript error: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: TypeError: 'get ready' called on an object that does not implement interface ServiceWorkerContainer.
+JavaScript error: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript warning: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: WebGL context was lost.
+JavaScript error: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: TypeError: 'get ready' called on an object that does not implement interface ServiceWorkerContainer.
+JavaScript error: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: TypeError: 'get ready' called on an object that does not implement interface ServiceWorkerContainer.
+JavaScript error: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: TypeError: 'get ready' called on an object that does not implement interface ServiceWorkerContainer.
+JavaScript error: https://planetazdorovo.ru/__qrator/qauth_utm_v2.js, line 1: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1650672785645	Marionette	INFO	Stopped listening on port 57969
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+1650672812664	geckodriver	INFO	Listening on 127.0.0.1:58008
+1650672815715	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58009" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\asta1\\AppData\\Local\\Temp\\rust_mozprofileHc9meR"
+1650672816880	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\asta1\\AppData\\Local\\Temp\\rust_mozprofileHc9meR\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:58009/devtools/browser/1bf75cde-9460-4489-bfb1-056f82bc4fd8
+1650672823993	Marionette	INFO	Listening on port 58027
+Read port: 58027
+1650672825957	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650672839555	Marionette	INFO	Stopped listening on port 58027

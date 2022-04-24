@@ -1,0 +1,173 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+html, body, html * {
+  font-family: 'Roboto', sans-serif;
+}
+/* Desktop - 1 */
+h1 {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+
+    background: #ECECEC;
+}
+
+/* PharmCompare */
+h2{
+    position: absolute;
+    width: 339px;
+    height: 56px;
+    left: 550px;
+    top: 82px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #19A886;
+}
+/* Поиск лекарства */
+h3 {
+    position: absolute;
+    width: 291px;
+    height: 42px;
+    left: 151px;
+    top: 192px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+
+}
+
+/* Сортировка: */
+h6 {
+    position: absolute;
+    width: 178px;
+    height: 35px;
+    left: 151px;
+    top: 343px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #000000;
+}
+
+
+/* По возрастанию */
+h7 {
+    position: absolute;
+    width: 170px;
+    height: 26px;
+    left: 1077px;
+    top: 352px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+    color: #000000;
+
+}
+h8 {
+    /* Group 1 */
+
+    position: absolute;
+    width: 15px;
+    height: 13px;
+    left: 1262px;
+    top: 361px;
+
+}
+
+/* Line 1 */
+h9 {
+    position: absolute;
+    width: 15.01px;
+    height: 0px;
+    left: 1262px;
+    top: 361px;
+
+    border: 1px solid #000000;
+    transform: matrix(0.47, 0.82, -0.99, 0.39, 0, 0);
+
+}
+/* Line 2 */
+h10 {
+    position: absolute;
+    width: 15.01px;
+    height: 0px;
+    left: 1277px;
+    top: 361px;
+
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: matrix(-0.47, 0.82, 0.99, 0.39, 0, 0);
+
+}
+/* Rectangle 3 */
+h11 {
+    position: absolute;
+    width: 1138px;
+    height: 330px;
+    left: 151px;
+    top: 404px;
+
+    background: #ECECEC;
+    box-shadow: 1px 1px 4px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
+}
+/* Найти */
+h12 {
+    position: absolute;
+    width: 87px;
+    height: 35px;
+    left: 1171px;
+    top: 271px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #FFFFFF;
+}
+input[type="text"]{
+    position: absolute;
+    height: 65px;
+    left: 151px;
+    top: 275px;
+
+    background: #C4C4C4;
+    border-radius: 10px;
+
+}
+input::placeholder{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 30px;
+}
+.dws-submit{
+    font-size: 30px;
+    position: absolute;
+    height: 65px;
+    left: 1141px;
+    top: 275px;
+    color: #FFFFFF;
+    background: #19A886;
+    border-radius: 10px;
+}

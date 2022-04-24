@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Welcome to PriceComparison’s documentation! &#8212; документация PriceComparison 0.1</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/translations.js"></script>
+    <link rel="index" title="Алфавитный указатель" href="genindex.html" />
+    <link rel="search" title="Поиск" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="welcome-to-pricecomparison-s-documentation">
+<h1>Welcome to PriceComparison’s documentation!<a class="headerlink" href="#welcome-to-pricecomparison-s-documentation" title="Ссылка на этот заголовок">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<span class="target" id="module-app"></span><dl class="py function">
+<dt class="sig sig-object py" id="app.index">
+<span class="sig-prename descclassname"><span class="pre">app.</span></span><span class="sig-name descname"><span class="pre">index</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#app.index" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Основная функция веб-сервиса, отвечающая за рендер главной html-страницы</p>
+<dl class="field-list simple">
+<dt class="field-odd">Результат</dt>
+<dd class="field-odd"><p>render_template(„main.html“)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<span class="target" id="module-service_parser"></span><dl class="py function">
+<dt class="sig sig-object py" id="service_parser.get_content">
+<span class="sig-prename descclassname"><span class="pre">service_parser.</span></span><span class="sig-name descname"><span class="pre">get_content</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">html</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#service_parser.get_content" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Функция получения контента сайта аптеки</p>
+<dl class="field-list simple">
+<dt class="field-odd">Параметры</dt>
+<dd class="field-odd"><p><strong>html</strong> – ссылка страницы сайта аптеки</p>
+</dd>
+<dt class="field-even">Результат</dt>
+<dd class="field-even"><p>medicines[] – список лекарств аптеки</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="service_parser.get_html">
+<span class="sig-prename descclassname"><span class="pre">service_parser.</span></span><span class="sig-name descname"><span class="pre">get_html</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">params</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#service_parser.get_html" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Функция получения ссылки сайта аптеки</p>
+<dl class="field-list simple">
+<dt class="field-odd">Параметры</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>url</strong> – ссылка сайта аптеки</p></li>
+<li><p><strong>params</strong> – параметры (default: None)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Результат</dt>
+<dd class="field-even"><p>r – GET-запрос на получение ссылки</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="service_parser.parse">
+<span class="sig-prename descclassname"><span class="pre">service_parser.</span></span><span class="sig-name descname"><span class="pre">parse</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#service_parser.parse" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Функция парсинга с сайта указанного товара</p>
+<dl class="field-list simple">
+<dt class="field-odd">Результат</dt>
+<dd class="field-odd"><p>medicines[] – список лекарств аптеки, а в случае ошибки - вывод error</p>
+</dd>
+</dl>
+</dd></dl>
+
+<span class="target" id="module-link"></span><dl class="py function">
+<dt class="sig sig-object py" id="link.final_link">
+<span class="sig-prename descclassname"><span class="pre">link.</span></span><span class="sig-name descname"><span class="pre">final_link</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">links</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">['https://366.ru/search/?text=',</span> <span class="pre">'https://planetazdorovo.ru/search/?q=',</span> <span class="pre">'https://gorzdrav.org/search/?text=',</span> <span class="pre">'https://budzdorov.ru/search/',</span> <span class="pre">'https://stolichki.ru/search?name=',</span> <span class="pre">'https://www.rigla.ru/search?q=',</span> <span class="pre">'https://zdravcity.ru/search/?what=',</span> <span class="pre">'https://www.asna.ru/search/?query=',</span> <span class="pre">'https://www.eapteka.ru/search/?q=']</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#link.final_link" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Функция получения ссылок указанного товара со всех сайтов аптек</p>
+<dl class="field-list simple">
+<dt class="field-odd">Параметры</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name</strong> – название товара</p></li>
+<li><p><strong>links</strong> – ссылки аптек</p></li>
+</ul>
+</dd>
+<dt class="field-even">Результат</dt>
+<dd class="field-even"><p>final[] – список ссылок на товар из всех аптек</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Ссылка на этот заголовок">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Алфавитный указатель</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Состав модуля</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Поиск</span></a></p></li>
+</ul>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">PriceComparison</a></h1>
+
+
+
+
+
+
+
+
+<h3>Навигация</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Быстрый поиск</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Искать" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2022, Vi.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.5.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
